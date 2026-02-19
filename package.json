@@ -1,0 +1,30 @@
+{
+  "name": "cec-grid",
+  "version": "0.0.1",
+  "description": "This is our main project",
+  "main": "./src/server.js",
+  "repository": "https://github.com/mainproject2025/CEC-GRD-BACKEND.git",
+  "private": false,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^13.6.0",
+    "fs-extra": "^11.3.3",
+    "multer": "^2.0.2",
+    "papaparse": "^5.5.3",
+    "pdfkit": "^0.17.2",
+    "puppeteer": "^24.34.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.4"
+  }
+}
