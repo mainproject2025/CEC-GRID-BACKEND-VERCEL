@@ -15,13 +15,11 @@ if (!admin.apps.length) {
     console.warn("Could not load Firebase credentials:", error.message);
   }
 
-  if (serviceAccount) {
+   
     admin.initializeApp({
       credential: admin.credential.cert(serviceAccount),
     });
-  } else {
-    console.error("Firebase initialized without credentials! This will likely fail.");
-  }
+
 }
 
 const db = admin.firestore();
